@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Slack bot that corrects typos with an asterisk",
   "homepage": "https://github.com/sozercan/slack-typobot",
-  "main": "maya.js",
+  "main": "app.js",
   "bugs": "https://github.com/sozercan/slack-typobot/issues",
   "repository": {
     "type": "git",

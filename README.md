@@ -2,6 +2,8 @@
 
 Slack bot that corrects typos ending with an asterisk
 
+<a href="https://azuredeploy.net/" target="_blank"><img src="http://azuredeploy.net/deploybutton.png"/></a>
+
 ## Screenshot
 
 ![](http://i.imgur.com/1YWEUOS.gif)
