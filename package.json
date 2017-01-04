@@ -12,6 +12,7 @@
   "author": "Sertac Ozercan <sozercan@gmail.com>",
   "dependencies": {
     "@slack/client": "https://github.com/sozercan/node-slack-sdk/tarball/master",
-    "star-correct" : "*"
+    "star-correct" : "^1.0.7",
+    "dotenv": "^2.0.0"
   }
 }

@@ -1,0 +1,22 @@
+apiVersion: extensions/v1beta1 
+kind: Deployment 
+metadata:
+  name: slack-typobot
+spec:
+  replicas: 1
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: slack-typobot
+    spec:
+      containers:
+      - name: master
+        image: docker.io/sozercan/slack-typobot
+        env:
+        - name: SLACK_API_TOKEN
+          valueFrom:
+            secretKeyRef:
+              name: secrets
+              key: token

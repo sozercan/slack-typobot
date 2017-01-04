@@ -10,11 +10,9 @@ Slack bot that corrects typos ending with an asterisk
 
 ## Install
 
-Create a file called `conf.json` and put your API token in it:
+Create a file called `.env` and put your API token in it:
 
-    {
-        "token": "PUT-TOKEN-HERE"
-    }
+    SLACK_API_TOKEN="PUT-TOKEN-HERE"
 
 Install dependencies:
 

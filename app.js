@@ -1,6 +1,8 @@
+'use strict'
+
+require('dotenv').config();
 var fs     = require('fs');
-var config = JSON.parse(fs.readFileSync('conf.json', 'utf8'));
-var token  = process.env.SLACK_API_TOKEN || config.token;
+var token  = process.env.SLACK_API_TOKEN;
 var starjs = require('star-correct');
 
 var RTM_EVENTS        = require('@slack/client').RTM_EVENTS;
