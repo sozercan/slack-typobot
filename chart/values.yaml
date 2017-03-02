@@ -1,0 +1,10 @@
+image: sozercan/slack-typobot:latest
+
+imagePullPolicy: IfNotPresent
+
+token: INSERT-TOKEN
+
+resources:
+  requests:
+    memory: 256Mi
+    cpu: 100m

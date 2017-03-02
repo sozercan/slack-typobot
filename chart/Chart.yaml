@@ -1,0 +1,15 @@
+name: slack-typobot
+version: 0.0.1
+description: Slack bot that corrects typos
+keywords:
+- slack
+- bot
+- typo
+home: https://github.com/sozercan/slack-typobot
+icon: https://maxcdn.icons8.com/Android_L/PNG/512/Logos/slack-512.png
+sources:
+- https://github.com/sozercan/slack-typobot
+maintainers:
+- name: Sertac Ozercan
+  email: sozercan@gmail.com
+engine: gotpl
